@@ -32,31 +32,37 @@
 > 后续会有所变动。
 > npm的话stable了再发（
 1. 安装插件
-    - 通过模板项目创建
-    可以通过以下命令安装：
-    ```sh
-    # npm
-    npm run clone EggyFly/lifuka-bot
-    # yarn
-    yarn clone EggyFly/lifuka-bot
-    ```
-    - 手动搭建
+  - 通过模板项目创建
+
+  可以通过以下命令安装：
+
+  ```sh
+  # npm
+  npm run clone EggyFly/lifuka-bot
+  # yarn
+  yarn clone EggyFly/lifuka-bot
+  ```
+
+  - 手动搭建
 
     > 这个就比较麻烦了（
 
-        ```sh
-        cd /path/to/koishi
-        mkdir external/lifuka-bot # 这里随意，但建议有一个文件夹专门存放第三方插件
-        git clone https://github.com/EggyFly/lifuka-bot.git external/lifuka-bot
-        ```
+    可以通过以下命令安装：
+
+    ```sh
+    cd /path/to/koishi
+    mkdir external/lifuka-bot # 这里随意，但建议有一个文件夹专门存放第三方插件
+    git clone https://github.com/EggyFly/lifuka-bot.git external/lifuka-bot
+    ```
+
 2. 启用插件
-    - 通过模板项目创建
+  - 通过模板项目创建
 
     > 这里稍后补图。
 
     在控制台“插件配置”界面中，点击右上角“添加插件”，找到lifuka-bot并添加。
 
-    - 手动搭建
+  - 手动搭建
 
     在项目入口文件添加以下内容：
 
